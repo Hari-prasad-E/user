@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    max-width: 400px;
+    display : flex;
+    margin: 5%  auto;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container form {
+    padding: 20px 24px;
+    background-color: #ffffff;
+}
+
+.login-container form span p {
+    color: lightcoral;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.login-container form p {
+    margin-top: 10px;
+}
+
+.login-container form p a{
+    text-decoration: none;
+    color: #2271b1;
+}
+
+.login-container input{
+    width: 100%;
+    margin: 10px 0;
+    line-height :1.333;
+    padding: 10px 5px;
+    border-radius: 6px;
+    border:  solid #8c8f94 1px;
+}
+
+.submit {
+    background-color: #2271b1;
+    color: #ffffff;
+}
+
+.logout-container {
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-between;
+}
+
+.logout-container button {
+    background-color: transparent;
+    border: none;
+}
+
+.logout-container button a {
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+}
+
+.merchant-body {
+    background-color: #049862;
+}
+
+.merchant-banner {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+}
+
+.merchant-banner h1 {
+    display: flex;
+    align-items: center;
+}
+
+.merchant-banner button {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+.merchant-banner a {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.card-body {
+    background-color: #87CEFA;
+}
+
+.card-banner {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.card-banner h1 {
+    display: flex;
+    align-items: center;
+}
+
+.card-banner button {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+.card-banner a {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.admin-body {
+    background-color: yellow;
+}
+
+.admin-banner {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.admin-banner h1 {
+    display: flex;
+    align-items: center;
+}
+
+.admin-banner button {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+.admin-banner a {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.expirey-date {
+    display: flex;
+    justify-content: space-between;
+}
+.expirey-date input {
+    flex-basis: 60%;
+}
+
+.expirey-date select {
+    flex-basis: 30%;
+    margin: 10px 0;
+    line-height: 1.333;
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: solid #8c8f94 1px;
+}
+
+.table-container {
+    margin: 30px 0;
+    padding: 0 30px;
+}
+
+.table-container h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 30px auto;  
+}
+th {
+    background-color: lightskyblue;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+td input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
+
+td input:focus {
+    border: none;
+    outline: none;
+}
+
+td a {
+    text-decoration: none;
+    background-color: lightcoral;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+td .submit {
+    background-color:#049862;
+    padding: 3px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.radio-flex {
+    display: flex;
+    margin: 10px 5px;
+}
+
+.radio-flex div {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.radio-flex input {
+    width: auto;
+    padding-left: 15px;
+    margin: 0 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+footer div {
+    text-align: center;
+}
+
+.success-mes {
+    text-align: center;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    margin: 20px 24px ;
+    border-radius: 6px;
+}
+
+.success-mes span {
+    padding: 5px;
+    display: inline;
+}
+
+.err-mes {
+    text-align: center;
+    background-color: #FF8A8A;
+    margin: 20px 24px ;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.err-mes span {
+    background-color: lightpink;
+    padding: 5px;
+    display: inline;
+}
