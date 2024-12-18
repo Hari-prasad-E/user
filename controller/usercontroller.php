@@ -50,8 +50,8 @@ class Users {
                 $_SESSION['username'] = $row['name'];
                 $_SESSION['role'] = $row['role'];
 
-                // Redirect to the home page
-                header('Location: home.php');
+                // Redirect to the welcome page
+                header('Location: welcome.php');
                 exit();
             } else {
                 return "Invalid password!";
